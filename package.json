@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "jest": "^29.6.1",
+    "viem": "^1.2.10"
+  },
+  "scripts": {
+    "run": "node repro.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  }
+}
